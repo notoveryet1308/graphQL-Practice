@@ -1,0 +1,78 @@
+.bookList{
+  width: 90%;
+  margin: 2rem auto;
+  .bookList-heading{
+    font-family: 'roboto';
+  }
+  .bookList-list{
+    text-decoration: none;
+    display: flex;
+     flex-wrap: wrap;
+    .book{
+      font-family: 'roboto';
+      list-style-type: none;
+      margin: 5px;
+      background: rgb(255, 128, 128);
+      border-radius: 20px;
+      padding: 5px 10px;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}
+
+.addbook{
+  width: 90%;
+  margin: 2rem auto;
+  form{
+    display: flex;
+    flex-direction: column;
+    .input-field{
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+       font-family: 'roboto';
+      label{
+        margin-right: 1rem;
+        color: #333;
+        font-size: 1.2rem;
+      }
+      input{
+        margin-top: 10px;
+        padding: 4px 10px;
+        height: 25px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+      }
+      select{
+        margin-top: 10px;
+        padding: 0  10px;
+        height: 30px;
+        border: none;
+        outline: none;
+      }
+    }
+    .btn-field{
+      margin-top: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button{
+        outline: none;
+        width: 30%;
+        font-size: 1.3rem;
+        font-family: 'roboto';
+        padding: 4px;
+        border: none;
+        border-radius: 20px;
+        background: #20E73B;
+        cursor: pointer;
+        color: #fff;
+        &:hover{
+          background:rgb(5, 93, 17); ;
+        }
+      }
+    }
+  }
+}
